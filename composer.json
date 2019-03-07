@@ -1,0 +1,14 @@
+{
+    "name": "utilisateur/myframework",
+    "description": "Cr\u0000er mon premier framework en PHP POO MVC",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "src"
+        }
+    }
+
+}
