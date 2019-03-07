@@ -33,7 +33,7 @@ class Request
     //      les diférentes actions de la methode
     //      le retour (return bla bla bla)
     //      }
-    public function __construct($post, $get, $files, $request, $server, $cookie, $session)
+    public function __construct($post, $get, $files, $cookie, $session, $request, $server)
     {
         $this->post = $post;
         $this->get = $get;
